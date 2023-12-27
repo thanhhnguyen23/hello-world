@@ -2,4 +2,7 @@
 ;{:deps {clojure.java-time/clojure.java-time {:mvn/version "1.4.2"}}}
 
 ;; using local libraries
-{:deps {time-lib/time-lib {:local/root "../time-lib"}}}
+;{:deps {time-lib/time-lib {:local/root "../time-lib"}}}
+
+;; using git lib
+{:deps {io.github.thanhhnguyen23/time-lib {:git/tag "v0.0.1" :git/sha "3a7c5fe"}}}
